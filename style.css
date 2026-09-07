@@ -92,7 +92,8 @@ body{
     font-family: 'Inter', sans-serif;  
 }
 
-#mainCard{
+.mainCardContent{
+    margin-top: -180px;
     color: white;
     display: flex;
     align-items: center;
@@ -100,7 +101,7 @@ body{
     padding-left: 5%;
 }
 
-#mainCard > img{
+.mainCardContent > img{
     width: 110px;
 }
 
