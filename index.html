@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="header">
+      <p>Find your film</p>
+      <a href="watchlist.html" id="watchlist">My Watchlist</a>
+    </div>
+    <search>
+      <form action="/search" method="GET" class="search-bar">
+        <div class="search-wrap">
+          <span class="search-icon">🔍</span>
+          <input type="search" placeholder="Search for a movie" />
+        </div>
+        <button id="searchButton" type="submit">Search</button>
+      </form>
+    </search>
+    <div class="hero-center">
+        <img src="images/Icon.svg" alt="Home" width="24" height="24">
+        <p>Start Exploring</p>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
+
+<!-- Search Page calls api for title searched for and displays results-->
+<!-- Button to add to watchlist data saved to local storage -->
