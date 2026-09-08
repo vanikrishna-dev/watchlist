@@ -93,12 +93,20 @@ body{
 }
 
 .mainCardContent{
-    margin-top: -180px;
     color: white;
     display: flex;
     align-items: center;
     font-family: 'Inter', sans-serif;
     padding-left: 5%;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #2C2C2C;
+}
+
+#mainCard {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .mainCardContent > img{
